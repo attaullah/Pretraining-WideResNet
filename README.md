@@ -85,4 +85,4 @@ Journal of Machine Learning Research,  10(2), 2009.
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](LICENSES)
