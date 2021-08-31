@@ -60,7 +60,7 @@ Try --helpfull to get a list of all flags.
  ```
 
 Pretrained weights will be saved into `weights/` directory. We also provide pretrained weights. They can be downloaded 
-from [releases](/releases/latest) and saved into `weights/` directory. Path of downloaded weights can be set in `wrn.py`.
+from [releases](/releases/) and saved into `weights/` directory. Path of downloaded weights can be set in `wrn.py`.
 
 ## Example usage
 For using pretrained weights, an example notebook is provided . For more details, see
