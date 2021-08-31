@@ -85,4 +85,4 @@ Journal of Machine Learning Research,  10(2), 2009.
 
 
 ## License
-[MIT](LICENSES)
+[MIT](https://github.com/attaullah/Pretraining-WideResNet/blob/main/LICENSE)
