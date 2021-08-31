@@ -1,6 +1,6 @@
 # Pretraining Wide Residual Network
-This repository contains code for pretraining Wide Residual Network (WRN) [1] on downsampled [3] ImageNet 32x32, 
-ImageNet 64x64, and ImageNet 224x224 using cross-entropy and triplet loss [2].
+This repository contains code for pretraining Wide Residual Network (WRN) [1] on downsampled [2] ImageNet 32x32, 
+ImageNet 64x64, and ImageNet 224x224 using cross-entropy and triplet loss [3].
 
 ## Environment setup
 For creating conda environment, a yml  file `tf2.yml` is provided for replicating setup.
