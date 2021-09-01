@@ -14,10 +14,10 @@ from tensorflow.keras.utils import get_source_inputs
 import tensorflow.keras.backend as K
 
 
-IM32_CE_WEIGHTS = '/path/to/weights/32x32-CE-weights.h5'
-IM64_CE_WEIGHTS = '/path/to/weights/64x64-CE-weights.h5'
-IM224_CE_WEIGHTS = '/path/to/weights/imagenet-full-CE-weights.h5'
-IM32_TRIPLET_WEIGHTS = '/path/to/weights/32x32-triplet-weights.h5'
+IM32_CE_WEIGHTS = 'weights/32x32-CE-weights.h5'
+IM64_CE_WEIGHTS = 'weights/64x64-CE-weights.h5'
+IM224_CE_WEIGHTS = 'weights/imagenet-full-CE-weights.h5'
+IM32_TRIPLET_WEIGHTS = 'weights/32x32-Triplet-weights.h5'
 
 
 def wide_residual_network(depth=28, width=2, dropout_rate=0.0, weights=None, input_tensor=None, input_shape=None):
