@@ -69,10 +69,13 @@ For using pretrained weights, an example notebook is provided . For more details
 ## Citation 
 If you use the provided weights, kindly cite our paper.
 ```
-@misc{ref21,
-	title={Title},
-	author={Authors},
-	year={2021}
+@misc{sahito2021better,
+      title={Better Self-training for Image Classification through Self-supervision}, 
+      author={Attaullah Sahito and Eibe Frank and Bernhard Pfahringer},
+      year={2021},
+      eprint={2109.00778},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 ## References
