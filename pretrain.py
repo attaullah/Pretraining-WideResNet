@@ -34,7 +34,8 @@ def setup_flags():
 def save_weights(model, conv_base,  _accuracy):
     if FLAGS.sw:  # if save weights, will be saved to ./weights/{network}-{dataset}-{loss-type}-{epochs}-{acc}-*.h5
         os.makedirs("./weights/", exist_ok=True)  # create directory if not exists
-        save_str = "./weights/{}-{}-{}-epochs-{}-acc-{:.2f}".format(FLAGS.n, FLAGS.d, FLAGS.lt, FLAGS.e, _accuracy)
+        save_str = "./weights/{}-{}-{}-epochs-{}-acc-{:.2f}".format(FLAGS.n, FLAGS.d.replace("/","_"), FLAGS.lt,
+                                                                    FLAGS.e, _accuracy)
         dump_weights(model, conv_base, save_str, include_top=False)
         print("weights saved as ", save_str)
 
