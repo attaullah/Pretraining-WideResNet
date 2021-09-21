@@ -20,6 +20,8 @@ package can be installed using pip:
 ```bash
 pip install tensorflow_datasets
 ```
+The current version of `tensorflow_datasets=4.4.0` package has a broken link for downloading  ImageNet 32x32  and ImageNet 
+64x64. The workaround is available at [GitHub](https://github.com/tensorflow/datasets/issues/3257). 
 
 ## Pretraining
 For pretraining from scratch using different setups, `pretrain.py` can be used. Details of self-explanatory commandline 
